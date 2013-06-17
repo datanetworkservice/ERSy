@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns:wicket="http://wicket.apache.org">
+<body>
+	<wicket:panel>
+		<h3>Search EASY:</h3>
+		<form wicket:id="form">
+			<input type="text" wicket:id="query" size="50" />
+			<input type="submit" value="Search" wicket:id="submitSearch" />
+		</form>
+		<div class="searchPanel">
+			<div>
+				<div wicket:id="searchResults" class="searchResult">
+					<a class="divlink" href="#" wicket:id="c1-link">
+					<span wicket:id="SearchResultPanel"/>
+					</a>
+				</div>
+			</div>
+		</div>
+	</wicket:panel>
+</body>
+</html>
